@@ -3,6 +3,7 @@ import './nav.css';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
+
 const Nav = () => {
   // Vérifie d'abord localStorage, sinon prend sessionStorage
   const token = localStorage.getItem("token") || sessionStorage.getItem("token");
@@ -23,7 +24,8 @@ const Nav = () => {
       {token ? (
         <NavLink className="main-nav-item" to="/" onClick={handleLogout}>
           <div className="logout">
-            {userProfile?.firstName || ''}
+            <i className="fa fa-user-circle sign-in-icon"></i>
+            {userProfile?.userName || ''}
             <i className="fa fa-sign-out"></i>
             Sign Out
           </div>

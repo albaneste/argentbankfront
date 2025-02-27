@@ -46,7 +46,7 @@
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1.5rem;
     box-sizing: border-box;
     text-align: left;
@@ -89,8 +89,8 @@
 }
 
 .transaction-button {
-    display: block;
-    width: 100%;
+    margin-left: 300px;
+    width: 50%;
     padding: 8px;
     font-size: 1.1rem;
     font-weight: bold;
@@ -98,4 +98,27 @@
     border-color: #00bc77;
     background-color: #00bc77;
     color: #fff;
+}
+
+.form-input {
+    background-color: lightgray;
+    color: grey;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.button-edit {
+    margin: 5px;
+    margin-top: 25px;
+    background-color: #00bc77;
+    color: white;
+}
+
+.form-box {
+    margin: 5px;
+}
+
+.form-user {
+    padding-left: 5px;
+    margin: 5px;
 }
