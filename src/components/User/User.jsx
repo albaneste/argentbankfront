@@ -97,14 +97,45 @@ const User = () => {
             <div className="main-header">
                 {isEditing ? (
                     <div className="edit-form">
-                        <input
-                            type="text"
-                            value={userName}
-                            onChange={(e) => setUserName(e.target.value)}
-                        />
-                        <button onClick={handleEdit}>Save</button>
-                        <button onClick={() => setIsEditing(false)}>Cancel</button>
+                        <h2>Edit user info</h2>
+                        <label htmlFor="userName">
+                            User Name:
+                            <input
+                                type="text"
+                                value={userName}
+                                onChange={(e) => setUserName(e.target.value)}
+                                className="form-user"
+                            />
+                        </label>
+                        <div className="form-box">
+                            <label htmlFor="firstName">
+                                First Name:
+                                <input
+                                    type="text"
+                                    name="firstName"
+                                    value={userData.firstName}
+                                    readOnly
+                                    className="form-input"
+                                />
+                            </label>
+                        </div>
+
+                        <div className="form-box">
+                            <label htmlFor="lastName">
+                                Last Name:
+                                <input
+                                    type="text"
+                                    name="lastName"
+                                    value={userData.lastName}
+                                    readOnly
+                                    className="form-input"
+                                />
+                            </label>
+                        </div>
+                        <button className="button-edit" onClick={handleEdit}>Save</button>
+                        <button className="button-edit" onClick={() => setIsEditing(false)}>Cancel</button>
                     </div>
+
                 ) : (
                     <>
                         <h1>

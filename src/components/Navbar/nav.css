@@ -28,6 +28,11 @@ a {
     margin-right: 5px;
 }
 
+.fa-sign-out {
+    margin: 5px;
+    margin-left: 10px;
+}
+
 .hide {
-	display: none;
+    display: none;
 }
