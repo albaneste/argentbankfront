@@ -1,15 +1,15 @@
 import Footer from "../../components/Footer/Footer";
-import Login from "../../components/Login/Login";
+import Signin from "../../components/Signin/Signin";
 import Nav from "../../components/Navbar/Nav";
 
-const Signin = () => {
+const Login = () => {
     return (
         <>
             <Nav />
-            <Login />
+            <Signin />
             <Footer />
         </>
     );
 };
 
-export default Signin;
+export default Login;

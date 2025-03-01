@@ -7,16 +7,16 @@ const Banner = () => {
             <img className="banner-image" src={BannerImg} alt="Bank tree" />
             <div className="banner-content">
                 <p className="banner-subtitle">
-                No fees.  
+                    No fees.
                 </p>
                 <p className="banner-subtitle">
-                No minimum deposit. 
+                    No minimum deposit.
                 </p>
                 <p className="banner-subtitle">
-                High interest rates.
+                    High interest rates.
                 </p>
                 <p className="banner-txt">
-                Open a savings account with Argent Bank today!
+                    Open a savings account with Argent Bank today!
                 </p>
             </div>
         </div>
