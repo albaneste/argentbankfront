@@ -38,43 +38,6 @@
     padding: 10px;
 }
 
-.account {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
-    background-color: #fff;
-    width: 80%;
-    margin: 0 auto;
-    flex-direction: row;
-    padding: 1.5rem;
-    box-sizing: border-box;
-    text-align: left;
-    margin-bottom: 2rem;
-}
-
-.account-amount {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.account-amount-description {
-    margin: 0;
-}
-
-.account-title {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    font-weight: normal;
-}
-
-.account-content-wrapper {
-    width: 100%;
-    flex: 1;
-}
-
 .edit-button {
     border-color: #00bc77;
     background-color: #00bc77;
@@ -86,32 +49,6 @@
 .header {
     color: #fff;
     margin-bottom: 2rem;
-}
-
-.transaction-button {
-    margin-left: 300px;
-    width: 50%;
-    padding: 8px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    border-color: #00bc77;
-    background-color: #00bc77;
-    color: #fff;
-}
-
-.form-input {
-    background-color: lightgray;
-    color: grey;
-    margin: 5px;
-    padding-left: 5px;
-}
-
-.button-edit {
-    margin: 5px;
-    margin-top: 25px;
-    background-color: #00bc77;
-    color: white;
 }
 
 .form-box {
