@@ -17,6 +17,7 @@ const Account = ({ title, amount, description }) => {
     );
 };
 
+
 Account.propTypes = {
     title: PropTypes.string.isRequired,
     amount: PropTypes.string.isRequired,
