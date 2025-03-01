@@ -132,6 +132,7 @@ const User = () => {
                         <button className="button-edit" onClick={handleEdit}>Save</button>
                         <button className="button-edit" onClick={() => setIsEditing(false)}>Cancel</button>
                     </div>
+
                 ) : (
                     <>
                         <h1>
